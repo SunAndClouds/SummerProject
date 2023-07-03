@@ -1,0 +1,1 @@
+Inside the "dataset 12491" directory there are three maps. Each one of them contains the LHGRs for 10 fuel pellets with approapiate units for the neutronflux (order 1E13).  
