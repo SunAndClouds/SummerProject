@@ -1,0 +1,251 @@
++++++++ IDEN
++++++++ Plot interface subroutine (1: output the data, 2: Stats)
++++++++ Plot information data file
++++++++ Diagram number, type (1,2,3), number of curves
++++++++ last parameter don't output input data (N)
++++++++ curve numbers (comma delimited)
++++++++ required sections/slices
++++++++ Times
++++++++ Scaling
++++++++ Next diagram (E: end, I: change plot info, D: New diagram)
++++++++ ----------------------------------------------------------------------
++++++++ (1) Rod avg burnup (EAV) 
+IDEN
+1
+PLIFILE
+258 1 1
+N F N
+1
+1
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (2) Nodal linear heat generation rate (Q) 
+IDEN
+1
+PLIFILE
+224 3 10
+N F N
+1
+1 2 3 4 5 6 7 8 9 10
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (3) Oxide thickness (OXID) 
+IDEN
+1
+PLIFILE
+204 3 10
+N F N
+1
+1 2 3 4 5 6 7 8 9 10
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (4) Integral fission gas release 
+IDEN
+1
+PLIFILE
+254 1 1
+N F N
+1 
+1
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (5) Slice average enthalpy of fuel 
+IDEN
+1
+PLIFILE
+205 3 10
+N F N
+1
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (6) Slice average burnup 
+IDEN
+1
+PLIFILE
+210 3 10
+N F N
+1
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (7) Slice fractional fission gas release 
+IDEN
+1
+PLIFILE
+212 3 10
+N F N
+1
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (8) Fuel centre temperature 
+IDEN
+1
+PLIFILE
+213 3 10
+N F N
+1
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (9) Fuel surface temperature 
+IDEN
+1
+PLIFILE
+213 3 10
+N F N
+2
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (10) Cladding inner temperature 
+IDEN
+1
+PLIFILE
+213 3 10
+N F N
+3
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (11) Cladding outer temperature 
+IDEN
+1
+PLIFILE
+213 3 10
+N F N
+4
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (12) Outer fuel radius 
+IDEN
+1
+PLIFILE
+214 3 10
+N F N
+2
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (13) Inner clad radius 
+IDEN
+1
+PLIFILE
+214 3 10
+N F N
+3
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (14) Outer clad radius 
+IDEN
+1
+PLIFILE
+214 3 10
+N F N
+4
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (15) Gap heat transfer coefficient 
+IDEN
+1
+PLIFILE
+216 3 10
+N F N
+2
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (16) Gapwidth (micron) 
+IDEN
+1
+PLIFILE
+221 3 10
+N F N
+1
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (17) Fuel-cladding contact pressure 
+IDEN
+1
+PLIFILE
+222 3 10
+N F N
+1
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (18) Gap pressure 
+IDEN
+1
+PLIFILE
+222 3 10
+N F N
+3
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (19) ECR 
+IDEN
+1
+PLIFILE
+232 3 10
+N F N
+1
+1 2 3 4 5 6 7 8 9 10 
+0 0 0.0
+99999 0 0.0
+0
+D
++++++++ (20) Rod total free volume 
+IDEN
+1
+PLIFILE
+261 1 1
+N F N
+7 
+1
+0 0 0.0
+99999 0 0.0
+0
+E
