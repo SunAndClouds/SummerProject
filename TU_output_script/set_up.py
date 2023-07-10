@@ -39,6 +39,9 @@ for r,_,fs in os.walk(inp_folder):
                 ph_path.replace('.txt','')
                 .split(os.sep)[len(inp_folder.split(os.sep)):]
                 )
+
+
+            print(ph_path)
             
             #Make run path
             os.makedirs(run_path,exist_ok=True)

@@ -11,8 +11,8 @@ import os
 import subprocess
 
 #Tu exe
-tu_exe = '/opt/Transuranus/21.1.1/Release/bin/Transuranus'
-tuplot_exe = '/opt/Transuranus/21.1.1/Release/bin/TuPlot'
+tu_exe = '/crex/proj/snic2022-22-583/Transuranus/21.1.4/Release/bin/Transuranus'
+tuplot_exe = '/crex/proj/snic2022-22-583/Transuranus/21.1.4/Release/bin/TuPlot'
 
 #Files to clean 
 clean_file_list = """
@@ -97,4 +97,4 @@ if __name__ == '__main__':
     with Pool() as pool:
         
        #Run the cases
-       pool.map(run_case,inps[:10])
+       pool.map(run_case,inps[:])
